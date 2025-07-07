@@ -1,0 +1,22 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1128px;
+    gap: 24px;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+    margin: 0 auto;
+}
+
+
+.gallery-image {
+    height: 200px;
+    width: 360px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05); }
+
+.sl-overlay {
+    background-color: rgba(0, 0, 0, 0.8) !important;}        
